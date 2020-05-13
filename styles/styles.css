@@ -22,6 +22,14 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/Roboto-Regular.eot');
+	src: local('☺'), url('../fonts/Roboto-Regular.woff') format('woff'), url('../fonts/Roboto-Regular.ttf') format('truetype'), url('../fonts/Roboto-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 
 .website-width {
 	width: 1920px;
@@ -150,4 +158,140 @@ li:first-child {
 	font-size: 14px;
 	font-weight: 700;
 	text-transform: uppercase;
+}
+
+.down_block {
+	display: flex;
+	flex-direction: column;
+}
+
+.dash {
+	display: flex;
+	width: 1210px;
+	justify-content: space-between;
+	margin: 145px 0 0;
+}
+
+.dash-one {
+	width: 280px;
+	height: 3px;
+	background: linear-gradient(to right, #f38181 30%, #ffffff 30% 100%);
+}
+
+.dash_styles {
+	width: 280px;
+	height: 3px;
+	background-color: #ffffff;
+}
+
+.down-menu {
+	display: flex;
+	width: 1210px;
+	justify-content: space-between;
+}
+
+.figures {
+	color: #ffffff;
+	font-family: 'Montserrat';
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.menu-name {
+	color: #ffffff;
+	font-family: 'Montserrat';
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 400;
+	margin: 0 0 2px 5px;
+}
+
+.down-menu-size {
+	min-width: 89px;
+	max-width: 133px;
+	height: 17px;
+	display: flex;
+	align-items: flex-end;
+	margin: 25px 145px 27px 0;
+}
+
+.about_us {
+	height: 750px;
+	background: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.main_subtitle {
+	font-family: 'KaushanScript';
+	width: 112px;
+	height: 23px;
+	color: #333333;
+	font-size: 24px;
+	font-weight: 400;
+	margin: 0 0 23px;
+}
+
+.main_title {
+	width: 280px;
+	height: 23px;
+	color: #333333;
+	font-family: 'Montserrat';
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0 0 40px;
+}
+
+.main_dash {
+	width: 60px;
+	height: 3px;
+	background-color: #f38181;
+	margin: 0 0 47px;
+}
+
+.heading_wrapper {
+	margin: 91px 0 0;
+}
+
+.about_us-text {
+	font-family: 'Roboto';
+	width: 954px;
+	height: 39px;
+	color: #999999;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: center;
+}
+
+.about_us-images {
+	display: flex;
+	width: 1210px;
+	height: 260px;
+	margin: 91px 0 0;
+}
+
+.image-left {
+	width: 380px;
+	height: 250px;
+	background-image: linear-gradient(rgba(233, 130, 131, .9), rgba(243, 220, 144, .9)), url(../images/computer.png);
+	box-shadow: 10px 10px #95e1d3;
+}
+
+.image-center {
+	width: 380px;
+	height: 250px;
+	background-image: url(../images/headphones.png);
+	margin: 10px 0 0 30px;
+}
+
+.image-right {
+	width: 380px;
+	height: 250px;
+	background-image: url(../images/lens.png);
+	margin: 10px 0 0 30px;
 }
