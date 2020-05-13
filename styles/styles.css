@@ -1,0 +1,153 @@
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-Regular.eot');
+	src: local('☺'), url('../fonts/Montserrat-Regular.woff') format('woff'), url('../fonts/Montserrat-Regular.ttf') format('truetype'), url('../fonts/Montserrat-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-Bold.eot');
+	src: local('☺'), url('../fonts/Montserrat-Bold.woff') format('woff'), url('../fonts/Montserrat-Bold.ttf') format('truetype'), url('../fonts/Montserrat-Bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'KaushanScript';
+	src: url('../fonts/KaushanScript-Regular.eot');
+	src: local('☺'), url('../fonts/KaushanScript-Regular.woff') format('woff'), url('../fonts/KaushanScript-Regular.ttf') format('truetype'), url('../fonts/KaushanScript-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+.website-width {
+	width: 1920px;
+	margin: auto;
+}
+
+.welcome__wrapper {
+	height: 1000px;
+	width: 100%;
+	background-image: linear-gradient(rgba(233, 130, 131, .9), rgba(243, 220, 144, .9)), url(../images/eagle.png);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.logo_and_menu {
+	width: 1200px;
+	display: flex;
+	justify-content: space-between;
+	margin: 28px 0 164px;
+}
+
+.logo__size {
+	width: 86px;
+	height: 23px;
+	margin: 0;
+}
+
+.menu {
+	width: 620px;
+	height: 29px;
+}
+
+.menu ul {
+	display: flex;
+	list-style-type: none;
+	justify-content: space-between;
+	margin: 8px 0 0;
+	padding: 0;
+}
+
+
+.menu_item {
+	color: #ffffff;
+	font-family: 'Montserrat';
+	font-size: 14px;
+	text-transform: uppercase;
+	padding-bottom: 12px;
+}
+
+li:first-child {
+	color: #fce38a;
+	border-bottom: 3px solid #fce38a;
+	padding-bottom: 12px;
+}
+
+.shopping {
+	margin: 0;
+	padding: 0 0 12px;
+	border: 0;
+	background-color: transparent;
+}
+
+.search {
+	margin: 0;
+	padding: 0 0 12px;
+	border: 0;
+	background-color: transparent;
+}
+
+.shopping img {
+	width: 18px;
+	height: 15px;
+}
+
+.search img {
+	width: 18px;
+	height: 18px;
+}
+
+.centering {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.subtitle {
+	font-family: 'KaushanScript';
+	/*width: 520px;
+	height: 95px;*/
+	color: #ffffff;
+	font-size: 72px;
+	margin: 0 0 42px;
+}
+
+
+.title {
+	width: 840px;
+	height: 260px;
+	font-family: 'Montserrat';
+	font-weight: 700;
+	font-size: 150px;
+	line-height: 135px;
+	text-transform: uppercase;
+	color: #ffffff;
+	text-align: center;
+	padding: 0;
+	margin: 0 0 71px;
+}
+
+.welcome__mogo-dash {
+	width: 60px;
+	height: 3px;
+	background-color: #ffffff;
+	margin: 0 0 50px;
+	border: 0;
+}
+
+.learn__more-button {
+	width: 160px;
+	height: 40px;
+	border: 3px solid #ffffff;
+	color: #ffffff;
+	background-color: rgba(0, 0, 0, 0);
+	font-family: 'Montserrat';
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
