@@ -218,7 +218,7 @@ li:first-child {
 }
 
 .about_us {
-	height: 750px;
+	height: 800px;
 	background: white;
 	display: flex;
 	flex-direction: column;
@@ -227,7 +227,6 @@ li:first-child {
 
 .main_subtitle {
 	font-family: 'KaushanScript';
-	width: 112px;
 	height: 23px;
 	color: #333333;
 	font-size: 24px;
@@ -236,7 +235,6 @@ li:first-child {
 }
 
 .main_title {
-	width: 280px;
 	height: 23px;
 	color: #333333;
 	font-family: 'Montserrat';
@@ -294,4 +292,138 @@ li:first-child {
 	height: 250px;
 	background-image: url(../images/lens.png);
 	margin: 10px 0 0 30px;
+}
+
+.about_us-bottom {
+	height: 270px;
+	background-color: #95e1d3;
+	display: flex;
+	justify-content: center;
+}
+
+.border-left, .border-right {
+	border: 1px solid  rgba(255, 255, 255, .3);
+	width: 239px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.border-left h4, .border-right h4 {
+	color: #ffffff;
+	font-family: 'Montserrat';
+	font-size: 72px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0 0 30px;
+}
+
+.border-left p, .border-right p {
+	color: #ffffff;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.servise {
+	/*justify-content: center;*/
+	height: 650px;
+	background: #ffffff;
+}
+
+.top-margin {
+	margin: 109px 0 0;
+}
+
+.about-services {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-between;
+	width: 1200px;
+	height: 241px;
+	margin: 19px 0 0;
+}
+
+.top-left, .top-center, .top-right {
+	border-bottom: 1px solid #e5e5e5;
+	height: 120px;
+	display: flex;
+	align-items: flex-start;
+}
+
+.bottom-left, .bottom-center, .bottom-right {
+	height: 71px;
+	margin: 49px 0 0;
+	display: flex;
+	align-items: flex-start;
+}
+
+.photography, .digital {
+	width: 273px;
+	height: 69px;
+	margin: 0 0 0 28px;
+}
+
+.seo {
+	width: 227px;
+	height: 69px;
+	margin: 0 0 0 28px;
+}
+
+.web_design {
+	width: 261px;
+	height: 69px;
+	margin: 0 0 0 28px;
+}
+
+.css_html {
+	width: 227px;
+	height: 71px;
+	margin: 0 0 0 28px;
+}
+
+.creativity {
+	width: 282px;
+	height: 69px;
+	margin: 0 0 0 28px;
+}
+
+.photography h4, .seo h4, .web_design h4, .css_html h4, .creativity h4, .digital h4 {
+	font-family: 'Montserrat';
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 0 0 20px;
+	height: 10px;
+}
+
+.photography p, .seo p, .web_design p, .css_html p, .creativity p, .digital p {
+	color: #999999;
+	font-family: 'Roboto';
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 24px;
+	margin: 0;
+	height: 39px;
+}
+
+.unique_design {
+	height: 850px;
+	background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url(../images/forest_fone.png);
+}
+
+.unique_design .centering .main_dash {
+	margin: 0 0 45px;
+}
+
+.phone_block {
+	position: relative;
+}
+
+.white_phone {
+	position: absolute;
+	left: 360px;
+	top: 200px;
 }
